@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>1.1</jspversion>
+	<shortname>tractis</shortname>
+    <tag>
+		<name>IdentityVerificationForm</name>
+		<tagclass>com.tractis.identity.IdentityVerificationForm</tagclass>
+	</tag>
+    <tag>
+		<name>IdentityVerificationCheck</name>
+		<tagclass>com.tractis.identity.IdentityVerificationCheck</tagclass>
+	</tag>
+</taglib>

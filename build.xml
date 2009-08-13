@@ -1,0 +1,17 @@
+<project name="Tractis identity taglibs" default="pack">
+	<target name="pack">
+		<war destfile="dist/titl.war" webxml="WEB-INF/web.xml">
+			 <fileset dir="jsp"/>
+			
+			 <lib dir="${basedir}/lib">
+			 	<include name="*.jar"/>
+			 	<exclude name="servlet-api-2.3.jar"/>
+			 </lib>
+			
+			<classes dir="${basedir}/bin">
+				<include name="**/*.class"/>
+				<include name="**/*.properties"/>				
+			</classes>
+		</war>
+	</target>
+</project>
